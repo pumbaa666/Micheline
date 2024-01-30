@@ -4,7 +4,7 @@
   "private": true,
   "main": "dist-electron/main.js",
   "scripts": {
-    "postinstall": "prisma generate & nuxt prepare",
+    "postinstall": "prisma generate & nuxt prepare"
   },
   "dependencies": {
   
