@@ -1,0 +1,58 @@
+{
+  "compilerOptions": {
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "allowJs": true,
+    "resolveJsonModule": true,
+    "jsx": "preserve",
+    "jsxFactory": "h",
+    "jsxFragmentFactory": "Fragment",
+    "paths": {
+      "#imports": [
+        "/home/loic/programmation/node/micheline/.nuxt/types/nitro-imports"
+      ],
+      "#paths": [
+        "/home/loic/programmation/node/micheline/node_modules/nuxt/dist/core/runtime/nitro/paths"
+      ],
+      "~": [
+        "/home/loic/programmation/node/micheline"
+      ],
+      "~/*": [
+        "/home/loic/programmation/node/micheline/*"
+      ],
+      "@": [
+        "/home/loic/programmation/node/micheline"
+      ],
+      "@/*": [
+        "/home/loic/programmation/node/micheline/*"
+      ],
+      "~~": [
+        "/home/loic/programmation/node/micheline"
+      ],
+      "~~/*": [
+        "/home/loic/programmation/node/micheline/*"
+      ],
+      "@@": [
+        "/home/loic/programmation/node/micheline"
+      ],
+      "@@/*": [
+        "/home/loic/programmation/node/micheline/*"
+      ],
+      "assets": [
+        "/home/loic/programmation/node/micheline/assets"
+      ],
+      "public": [
+        "/home/loic/programmation/node/micheline/public"
+      ]
+    }
+  },
+  "include": [
+    "/home/loic/programmation/node/micheline/.nuxt/types/nitro-nuxt.d.ts",
+    "./types/nitro.d.ts",
+    "../**/*",
+    "../server/**/*"
+  ]
+}
